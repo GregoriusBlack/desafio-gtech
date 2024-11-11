@@ -3,22 +3,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 *{
-    color:#333333;
     font-family: Rubik, Inter, Sans-serif;
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
 }
 body{
-    background-color: #f2f2f2;
+    background-color: #333333;
     max-width: 1020px;
 }
+/*inixio menu*/
 .menu{
     display: flex;
     background-color: #333333;
     justify-content: center;
     align-items: center;
-
+    padding-bottom:50px ;
 }
 .menu h1{
     font-family: Roboto;
@@ -60,6 +60,64 @@ body{
 .menu ul li a:hover{
     background-color: #0fc;
 }
+/*fim menu*/
+/*fim banner*/
+.banner{
+    width: 100%;
+    height: 300px;
+    background:  right no-repeat #fff url("/img/458m9pxHUMaHXbTxRZtfsK6dGGXmQx0qYScR5wKB.jpg");
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+}
+.legenda{
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    transition: background .5s;
+}
+
+.legenda  p{
+    max-width: 45%;
+    float: left;
+}
+.legenda h2, p{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.legenda:hover{
+   color:#fff;
+   background-color: rgba(27, 151, 145, 0.5);
+  
+}
+.btn{
+    width: 120px;
+    height: 50px;
+    display:flex;
+    background-color: #333333;
+    border-radius:3px ;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    margin-left: 20px;
+    margin-top: 30dvh;
+    box-shadow: rgba(0, 0, 0, 0.2);
+    border: 2px solid #0fc;
+}
+.btn a{
+    color: #0fc;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+}
+.btn:hover{
+    border:2px solid #0fc;
+}
+
+
+
+
 footer{
     background-color: #333333;
 }
