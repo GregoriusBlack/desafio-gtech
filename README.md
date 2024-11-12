@@ -7,6 +7,6 @@ Nele coloquei  um cabeçalho  com logo e menu,  uma main com um catalogo dos ani
 
 
 -link  do repositório: (https://github.com/GregoriusBlack/desafio-gtech)
-<img src="/127.0.0.1_5500_index.html" alt="Print do site completo">
+<img src="127.0.0.1_5500_index.html" alt="Print do site completo">
 
 Aluno: Francisco Luan Carlos Gregório.
